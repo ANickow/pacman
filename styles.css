@@ -1,6 +1,15 @@
 * {
     box-sizing: border-box;
-    font-size: 0px;
+
+}
+
+html{
+        font-size: 0px;
+}
+
+#header{
+    font-size: 16px;
+    color: white;
 }
 
 body {
@@ -8,8 +17,8 @@ body {
 }
 
 .row div {
-    width: 48px;
-    height: 48px;
+    width: 28px;
+    height: 28px;
     display: inline-block;
 }
 
@@ -19,12 +28,12 @@ body {
 
 .food {
     background: white;
-    border: 16px solid black;
+    border: 10px solid black;
     border-radius: 100%;
 }
 
 .plyr {
-    background: yellow;
-    border: 4px solid black;
-    border-radius: 100%;
+    background-image: url('http://i274.photobucket.com/albums/jj258/lynzeelove/pacman-1.gif');
+    background-size: cover;
+    
 }
