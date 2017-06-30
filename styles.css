@@ -64,3 +64,8 @@ body {
     background-image: url('http://i274.photobucket.com/albums/jj258/lynzeelove/pacman-1.gif');
     background-size: cover;
 }
+
+.ghost {
+    background-image: url('red_ghost.png');
+    background-size: cover;
+}

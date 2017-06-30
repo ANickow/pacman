@@ -4,7 +4,7 @@ Features to add:
         DONE - Set to traditional board
         DONE - Gif for Pac-Man that rotates on key press
         DONE - Add fruit for more points
-         - Start/Refresh button
+        DONE - Start/Refresh button
 
     Bonus features (from cohort):
         - Ghosts that chase you

@@ -12,7 +12,8 @@ $(document).ready(function () {
     });
     // Default screen display
     var grid = lvl1Grid;
-    var player = { x: 7, y: 9}
+    var player = { x: 7, y: 13};
+    var ghost = { x: 7, y: 9};
     var score = 0;
     function updateDisplay () {
         var gridHTML = generateGridHTML(grid);
@@ -46,6 +47,10 @@ $(document).ready(function () {
             // Sets the players coordinates to the new location
             player = destination;
             return true;
+        }
+
+        function setGhostPosition(){
+            
         }
 
         $(document).keydown(function (event) {
